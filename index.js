@@ -7,3 +7,7 @@ fs.readFile("index.txt", "utf-8", (err, data) => {
 fs.unlink("mouman.txt", (err) => {
   console.log("File deleted successfully");
 });
+
+fs.appendFile("index.txt", "NASSIME MRIIID", (err) => {
+  console.log("file modified successfuly");
+});
